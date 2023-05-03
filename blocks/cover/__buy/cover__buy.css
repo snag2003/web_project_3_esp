@@ -1,0 +1,19 @@
+.cover__buy {
+    margin-bottom: 0;
+    width: 198px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0278FE;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  
+.cover__buy:hover {
+    background: #0063D2;
+}

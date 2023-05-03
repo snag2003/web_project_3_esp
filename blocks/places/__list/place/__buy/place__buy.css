@@ -1,0 +1,27 @@
+.place__buy {
+    width: 355px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0278FE;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    grid-area: button;
+}
+  
+.place__buy:hover {
+    background: #0063D2;
+}
+  
+@media screen and (max-width: 767px) {
+    .place__buy {
+      width: 288px;
+      margin-left: 16px;
+      font-size: 14px;
+    } 
+}

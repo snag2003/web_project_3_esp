@@ -1,0 +1,30 @@
+.place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "title artists"
+    "image text"
+    "button text"
+    ". text";
+    grid-gap: 48px 40px;
+}
+  
+@media screen and (max-width: 1279px) {
+    .place {
+      grid-gap: 48px 28px;
+    } 
+}
+  
+@media screen and (max-width: 767px) {
+    .place {
+      grid-template-columns: 100%;
+      grid-template-areas: 
+      "title"
+      "artists"
+      "image"
+      "text"
+      "button";
+      grid-gap: 30px 0;
+      margin-bottom: 30px;
+    } 
+}
