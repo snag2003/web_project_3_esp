@@ -12,6 +12,8 @@
     font-size: 18px;
     line-height: 100%;
     grid-area: button;
+    color: white;
+    text-decoration: none;
 }
   
 .place__buy:hover {
